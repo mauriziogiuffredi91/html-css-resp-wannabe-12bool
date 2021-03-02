@@ -1,18 +1,18 @@
-.row {
+/* .row {
   width: 992px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
-}
+} */
 
-/* BLOCCO LEZIONI */
+/* BLOCCO LEZIONI
 #lezioni .row>.left,
 #lezioni .row>.right {
   width: 50%;
-  float: left;
-}
+  
+} */
 
-#lezioni .row img {
+#lezioni .col-md-12 img {
   /* per centrare orizzontalmente */
   display: block;
   margin-right: auto;
