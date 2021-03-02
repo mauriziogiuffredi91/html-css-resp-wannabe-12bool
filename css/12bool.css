@@ -7,7 +7,7 @@
 /* utilities */
 .container{
     max-width: 1170px;
-    margin: 0;
+    margin: 0 auto;
 }
 
 .container::after{
