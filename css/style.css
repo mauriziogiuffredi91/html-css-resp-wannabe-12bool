@@ -2,11 +2,12 @@ h1{
   margin: 20px 0;
 }
 
-#lezioni .col-md-12 img {
+#lezioni img {
   /* per centrare orizzontalmente */
   display: block;
   margin-right: auto;
   margin-left: auto;
+  width: 65%;
 }
 
 #lezioni {
@@ -16,11 +17,24 @@ h1{
 
 /* BLOCCO STEPS */
 
+#steps {
+  margin-bottom: 50px;
+}
+
+#steps .left,
+#steps .central,
+#steps .right {
+  margin-bottom: 30px;
+}
+
 
 #steps {
   text-align: center;
 }
 
+#steps img{
+  width: 65%;
+}
 
 
 /* BLOCCO Why */
@@ -52,10 +66,14 @@ h1{
 
 .container.grey {
   background-color: #f9f9f9;
+  
 }
+
+
 
 img {
   height: 200px;
+  
 }
 
 .clear {
